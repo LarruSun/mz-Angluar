@@ -21,7 +21,12 @@
     "@angular/platform-browser": "^5.2.0",
     "@angular/platform-browser-dynamic": "^5.2.0",
     "@angular/router": "^5.2.0",
+    "bootstrap": "^3.3.7",
     "core-js": "^2.4.1",
+    "element-angular": "^0.7.0",
+    "element-ui": "^2.3.1",
+    "font-awesome": "^4.7.0",
+    "font-awesome-sass": "^4.7.0",
     "rxjs": "^5.5.6",
     "zone.js": "^0.8.19"
   },
@@ -40,7 +45,10 @@
     "karma-coverage-istanbul-reporter": "^1.2.1",
     "karma-jasmine": "~1.1.0",
     "karma-jasmine-html-reporter": "^0.2.2",
+    "node-sass": "^4.8.3",
     "protractor": "~5.1.2",
+    "sass-loader": "^6.0.7",
+    "swiper": "^3.4.1",
     "ts-node": "~4.1.0",
     "tslint": "~5.9.1",
     "typescript": "~2.5.3"

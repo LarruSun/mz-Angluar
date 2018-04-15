@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#ComingPlay{
+width: 100%;
+margin-top: 10px;
+// background: rgb(235, 219, 219);
+background:rgb(235,235,235);
+
+}
+
+#ComingPlay .Top{
+    width: 100%;
+    height: 50px;
+    padding-top: 20px;
+    margin-top: -10px;
+    overflow: hidden;
+    text-align: center;
+}
+#ComingPlay .Top hr{
+    margin-top: 25px;
+}
+#ComingPlay .Top p{
+    margin-top: -10px;
+    width: 20%;
+    font-size: 12px;
+    margin-left: 40%;
+    background:rgb(167,167,167);
+    border-radius: 10px;
+    color: #fff;
+}
+
+#ComingPlay img{
+    width: 95%;
+    height: 190px;
+    margin-left: 2.5%;
+    margin-top: 20px;
+}
+#ComingPlay .Bottn{
+    width: 95%;
+    margin: 0 auto;
+    margin-top: -4px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+#ComingPlay .Bottn .left{
+    width: 80%;
+    background: #ffffff;
+}
+#ComingPlay .Bottn .right{
+    background: #ffffff;
+    font-size: 12px;
+    width: 20%;
+    color: orangered;
+    text-indent: -9%;
+    line-height: 45px;
+    height: 50px;
+}
+#ComingPlay .Bottn .left .name{
+    width: 100%;
+    height: 40px;
+    line-height: 46px;
+    font-size: 10px;
+    text-indent: 3%;
+}
+#ComingPlay .Bottn .left .title{
+    width: 100%;
+    height: 25px;
+    line-height: 5px;
+    font-size: 8px;
+    -webkit-transform: scale(0.5);
+    transform: scale(0.7);
+    text-indent: -17%;
+    color: rgb(161, 147, 147);
+    letter-spacing: 2px;
+}
+/* #ComingPlay .Bottn p{
+    width: 100%;
+    height: 25px;
+} */
+#ComingPlay .more{
+    margin-left: 30%;
+    font-family: 黑体;
+    font-size: 12px;
+    width: 35%;
+    height: 28px;
+    border-radius: 15px;
+    background: white;
+    border: 0.5px solid gray;
+    margin-top: 35px;
+}
+#ComingPlay a{
+    color: black;
+    text-decoration: none;
+}

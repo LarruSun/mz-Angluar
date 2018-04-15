@@ -1,0 +1,18 @@
+#HomeLoadingView{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 1000px;
+    background: #fff;
+    z-index: 12;
+  
+}
+
+
+#HomeLoadingView p{
+
+    margin-top: 250px;
+    margin-left: 40%;
+    font-size: 50px;
+}

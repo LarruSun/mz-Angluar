@@ -1,0 +1,106 @@
+@import './../lib/icon/iconfont.css';
+.selectClass{
+    border-bottom: 2px solid orangered; 
+}
+#cinemaList{
+    margin-top: 50px;
+    img{
+        width: 100%;
+        height: 155px;
+    }
+    div{
+        width: 100%;
+        height: 115px;
+        border-bottom: 1px dashed #ccc;
+        position: relative;
+        h4{
+            margin-left: 20%;
+            height: 55px;
+            line-height: 88px;
+            font-size: 17px;
+            margin-top: -75px;
+        }
+        p{
+            margin-left: 20%;
+            font-size: 12px;
+            color:rgb(115,115,115)
+        }
+        .btn{
+            position: absolute;
+            background: orange;
+            top: 25px;
+            right: 10%;
+            width: 30%;
+            border-radius: 20px;
+        }
+    }
+    #add{
+        .adds{
+            display: inline-block;
+            width: 80%;
+            height: 115px;
+            padding-top: 35px;
+            
+        }
+    }
+    #call{
+        .calls{
+            display: inline-block;
+            width: 80%;
+            height: 115px;
+            padding-top: 45px;
+            font-size: 18px;
+            color:rgb(115,115,115);
+
+        } 
+    }
+    #server{
+        height: 80px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 0px;
+        border-bottom:1px solid #ccc; 
+        .title{
+            width: 20%;
+            height: 80px;
+            .name{
+                width: 100%;
+                margin: 0px;
+                height: 30px;
+                line-height: 25px;
+                // border-bottom:2px solid orangered;
+                padding: 0px;
+                text-align: center;
+                font-size: 15px;
+                color:rgb(115,115,115);
+            }
+            .iconfont{
+                font-size: 30px;
+                width: 100%;
+                margin: 0px;
+                padding: 0px;
+                text-align: center;
+                margin-top: 7px;
+
+            }
+        }
+    }
+    .infor{
+        min-height: 75px;
+        p{
+            color:rgb(115,115,115);
+            margin-left: 7%;
+            padding-top: 20px;
+        }
+    }
+    .iconfont{
+        display: inline-block;
+        width: 18%;
+        font-size: 35px;
+        text-align: center;
+        padding-top: 30px;
+    }
+}

@@ -1,0 +1,20 @@
+<div id="ComingPlay">
+
+
+    <div class="Top">
+        <hr/>
+        <p>即将上映</p>
+    </div>
+    <div *ngFor='let item of ComePlayingData' class="Items">
+      <a href="javascript void(0)" (click)=setId(item.id) routerLink='comingPlay'>   
+        <img src={{item.cover.origin}} alt="">
+        <div class="Bottn">
+            <div class="left">
+            <p class="name">{{item.name}}</p>
+            </div>
+            <p class="right">{{item.premiereAt | date:"MM月dd日"}}上映</p>
+        </div>
+        </a>
+</div>
+<button class="more" (click)="more()">更多热映电影</button>
+</div>

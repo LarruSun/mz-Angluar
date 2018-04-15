@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#isPlay{
+width: 100%;
+margin-top: 100px;
+margin-top: 10px;
+// background: rgb(235, 219, 219)
+background:rgb(235,235,235);
+
+}
+
+#isPlay img{
+    width: 95%;
+    height: 190px;
+    margin-left: 2.5%;
+    margin-top: 20px;
+}
+#isPlay .Bottn{
+    width: 95%;
+    margin:  0 auto;
+    margin-top: -4px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+#isPlay .Bottn .left{
+    width: 80%;
+    background: #ffffff;
+}
+#isPlay .Bottn .right{
+    background: #ffffff;
+    font-size: 15px;
+    width: 20%;
+    color: orangered;
+    text-indent: -1%;
+    line-height: 35px;
+    height: 50px;
+}
+#isPlay .Bottn .left .name{
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    font-size: 11px;
+    text-indent: 3%;
+}
+#isPlay .Bottn .left .title{
+    width: 100%;
+    height: 25px;
+    line-height: 5px;
+    font-size: 8px;
+    -webkit-transform: scale(0.5);
+    transform: scale(0.7);
+    text-indent: -17%;
+    color: rgb(161, 147, 147);
+    letter-spacing: 2px;
+}
+/* #isPlay .Bottn p{
+    width: 100%;
+    height: 25px;
+} */
+#isPlay .more{
+    margin-left: 35%;
+    font-family: 黑体;
+    font-size: 12px;
+    width: 26%;
+    height: 30px;
+    border-radius: 15px;
+    background: white;
+    border: 0.5px solid gray;
+}
+
+#isPlay a{
+    color: black;
+    text-decoration: none;
+}

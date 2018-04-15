@@ -1,0 +1,54 @@
+#myForm{
+    width: 100%;
+    margin-top: 100px;
+    .form-control{
+        width: 80%;
+        margin: 0 auto;
+    }
+    #Submit{
+        height: 40px;
+        width: 50%;
+        background: rgb(254,130,51);
+        margin-left: 22%;
+        margin-top: 65px;
+        border-radius: 40px;
+    }
+    #loginId{
+        height: 70px;
+        position: relative;
+        #send{
+            display: inline-block;
+            position: absolute;
+            top: 0px;
+            margin: 0px;
+            width: 35%;
+            height: 30px;
+            line-height:0px;
+            color: #fff;
+            background: rgb(72, 138, 132) ;
+            margin: 0px 0px 0px 55%;
+        }
+    }
+    .box-card{
+        p{
+            width: 100%;
+            height: 20px;
+            text-align: center;
+            line-height: 20px;
+        }
+        .passs{
+            color: rgb(165, 133, 133);
+        }
+        span{
+            display: inline-block;
+            width: 22%;
+            height: 20px;
+            line-height: 20px;
+            text-align: center;
+        }
+        #ssure {
+            margin-left: 10%;
+        }
+    }
+
+}

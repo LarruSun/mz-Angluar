@@ -1,0 +1,79 @@
+#person {
+  width: 100%;
+  margin-top: 50px;
+}
+
+#person .Top {
+  width: 100%;
+  background: #303030;
+  height: 155px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+#person img {
+  margin-top: 20px;
+  height: 95px;
+  border-radius: 50px;
+  margin-left: 10%;
+}
+
+#person .topRight {
+  margin-left: 5%;
+}
+
+#person .topRight p {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  height: 20px;
+  line-height: 45px;
+}
+
+#person .topRight .user {
+  margin-top: 35px;
+}
+
+#person #Bodys {
+  width: 100%;
+  background: #ebebeb;
+}
+
+#person #Bodys p {
+  width: 100%;
+  height: 60px;
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+}
+
+#person #Bodys p span {
+  display: inline-block;
+  line-height: 56px;
+  margin-left: 5%;
+  font-size: 12px;
+}
+
+#person #Bodys p .ico {
+  width: 7%;
+  height: 22px;
+  background: red;
+  border-radius: 10px;
+  margin-left: 5%;
+  margin-top: 15px;
+}
+
+#person #Bodys .center1 {
+  width: 100%;
+}
+
+#person #Bodys .center1 p {
+  margin: 0px;
+  border-bottom: 1px solid #ccc;
+}
+
+#person #Bodys .set {
+  margin-top: 15px;
+  height: 50px;
+}

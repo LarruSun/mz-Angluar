@@ -1,0 +1,40 @@
+<div id="LoadingView" *ngIf='loading'>
+  <p class="el-icon-loading"></p>
+</div>
+
+
+<div id="List" *ngIf='!loading'>
+    <img [src]="myData.cover.origin" alt="未显示">
+    <div id="filmJJ">
+        <div class="jj">
+          <p class="bac"></p>
+          <p class="yjj">影片简介</p>
+        </div>
+        
+        <p class="director">导&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;演 : {{myData.director}}</p>
+      
+        <p class="actors" >
+          <span>主&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;演 :</span>
+          <span *ngFor='let item of myData.actors'>&nbsp;{{item.name}}</span>
+        </p>
+        
+        <p class="nation">
+          <span>地区语言 :</span>
+          <span>{{myData.nation}}</span>
+          <span>({{myData.language}})</span>
+        </p>
+        
+        <p class="category">
+          类&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;型 : {{myData.category}}
+        </p>
+        
+        <p class="premiereAt">
+          上映时间 : {{myData.premiereAt | date:"MM月dd日"}}上映
+        </p>
+
+        <div class="synopsis">
+            {{myData.synopsis}}
+        </div>
+        <a href="javascript:void(0)" routerLink="/cinema">立即购票</a>
+    </div>
+</div>

@@ -1,0 +1,15 @@
+
+
+<div id="HomeLoadingView" *ngIf='loading'>
+        <p class="el-icon-loading"></p>
+</div>
+
+
+<div *ngIf='!loading'>
+    <app-scroll-ad  [scrollAdData]='scrollAdData'></app-scroll-ad>
+    <app-is-playing [NowPlayingData]='NowPlayingData'></app-is-playing>
+    <app-coming-play [ComePlayingData]='ComePlayingData'></app-coming-play>
+</div>
+
+<!-- <app-good-list></app-good-list> -->
+      

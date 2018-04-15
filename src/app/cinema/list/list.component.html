@@ -1,0 +1,12 @@
+<div id="cinema">
+        <div *ngFor='let item of titles ; let indexs = index' id="cinemaList">
+                <p class="title"  (click)='selectAdde(indexs)'>{{item}}</p>
+                <div id="cinemaBody" *ngFor='let items of filtData[indexs]' [hidden]='!flagArr[indexs]' >
+                        <a href="javascript void(0)" routerLink='cinemalist' (click)='setIds(items.id)'>       
+                                <p class="name">{{items.name | sliceStr:10}}</p>
+                                <P class="addr">{{items.address | sliceStr:18}}</P>
+                                <P class="distance">距离未知</P>
+                        </a>
+                </div>
+        </div>
+</div>

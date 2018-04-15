@@ -1,0 +1,38 @@
+
+    <form #regForm="ngForm" name="myForm" id="myForm" class="myForm">
+
+        <div id="loginId">
+            <input placeholder="输入手机号" class="form-control" type="text" id="users" name="users" [(ngModel)]="userID" #user="ngModel" 
+            required="required" minlength="11" maxlength="11" pattern="^[0-9_]*$"/>
+            <span id="send" *ngIf="user.valid" class="green alert alert-success" (click)=sendAuthCode()>发送验证码</span>
+        </div>
+
+
+        <div id="loginPass">
+            <input placeholder="输入验证码" class="form-control" type="text" id="passWord" name="passWord" [(ngModel)]="pass" #passWord="ngModel" 
+            required="required" minlength="4"/>            
+        </div>
+
+
+        <div class="box-card" #card id="cards">
+            <el-dialog [title]="'请选择验证码'"  [(visible)]="card.toggle" [before-close]="handle">
+                <p>{{sureAuthCode}}</p>
+                <p class="passs">{{pass}}</p>
+
+                <span *ngFor='let item of authCode , let indexs=index' (click)='selectAuth(item,indexs)' [style.color]='isSelect[indexs]?"red":"aqua"'>
+                    {{item}}
+                </span>
+              <el-button style="height:35px;margin-top:20px;margin-left:20px;" (click)="card.toggle = false">确定</el-button>
+            </el-dialog>
+        </div>
+
+
+        <button (click)='login()' [disabled]="!regForm.form.valid" id="Submit" class="btn btn-warning">提交</button>
+
+
+
+
+         
+    </form>	
+
+

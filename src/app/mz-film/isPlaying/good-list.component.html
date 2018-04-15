@@ -1,0 +1,30 @@
+<!-- <div id="HomeLoadingView" *ngIf='loading'>
+  <p class="el-icon-loading"></p>
+</div> -->
+
+
+<div id="mzFilmGoodList" (scroll)=srolls()>
+    <div class="el-icon-upload2" [@returnTopBotton]='returnTopBotton' (click)='hiddenReturnTopButton()'></div>
+    <ul id="Ul">
+      <li *ngFor="let item of myData"  >
+        <a href="javascript:void(0)" (click)="setId(item.id)" routerLink="list">
+            <!-- routerLink="/list" 表示直接在跟路径上添加list不会在good-list基础上添加路径-->
+              <img [src]="item.cover.origin" alt="">
+              <div class="center">
+                <p class="name">{{item.name}}</p>
+                <p class="intro">{{item.intro}}</p>
+                <p class="botton">
+                  <span class="sy">{{item.cinemaCount}}家电影院上映</span>
+                  <span class="wantLook">{{item.watchCount}}想看</span>
+                </p>
+              </div>
+              <div class="right"> <p>{{item.grade}}</p></div>
+          </a>
+      </li>
+      <div [hidden]="!show" class="Lazzshow">
+          <p *ngIf='isBotton'>{{showText}}</p>
+         <p *ngIf='!isBotton' class="el-icon-loading"></p>
+      </div>
+
+    </ul>
+</div>

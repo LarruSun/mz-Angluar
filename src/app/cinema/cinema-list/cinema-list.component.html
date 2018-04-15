@@ -1,0 +1,51 @@
+
+<div id="cinemaList">
+    <img src='//static.m.maizuo.com/v4/static/app/asset/66461d1a02a9eaa64876c90952c42aed.png' alt="未显示">
+    <div id="set">
+        <span  class="iconfont icon-iconchair01 icons" style="color:rgb(245, 57, 57)"></span>
+        <h4>订座位</h4>
+        <p>选好场次及座次,到电影院自助取票</p>
+        <button class="btn btn-warning">立即定座</button>
+    </div>
+
+    <div id="TYP">
+        <span  class="iconfont icon-icon_ticket icons" style="color:rgb(85, 85, 211)"></span>
+        <h4>通兑票</h4>
+        <p>选好场次及座次,到电影院自助取票</p>
+        <button class="btn btn-warning">立即购票</button>
+    </div>
+
+
+
+
+    <div id="sale" >
+        <span  class="iconfont icon-woyaomaifang icons" style="color:rgb(85, 85, 211)"></span>
+        <h4>小卖品</h4>
+        <button class="btn btn-warning">购买</button>
+    </div>
+
+
+    <div id="add" >
+        <span  class="iconfont icon-dingwei icons" style="color:rgb(85, 85, 211)"></span>
+        <span class="adds">{{myData.address}}</span>
+    </div>
+
+    <div id="call" >
+        <span  class="iconfont icon-dianhua icons" style="color:rgb(211, 96, 96)"></span>
+        <span class="calls">{{myData.telephones}}</span>
+    </div>
+
+
+    <div id="server">
+        <div class="title" *ngFor='let item of title , let index=index' (click)='selectSP(index)'>
+            <p   [class]='item.class' [style.color]="item.isSelect?'red':'black'"></p>
+            <p   [class]="item.isSelect?'selectClass name':'name'">{{item.name}}</p>
+        </div>
+    </div>        
+    
+    
+    <div class="infor">
+        <p>{{infor}}</p>
+    </div>
+    
+</div>

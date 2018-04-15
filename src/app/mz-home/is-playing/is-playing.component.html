@@ -1,0 +1,19 @@
+<div id="isPlay">
+    <div *ngFor='let item of NowPlayingData' class="Items">
+       <a href="javascript void(0) " routerLink='isPlaying' (click)='setId(item.id)'> 
+          <img src={{item.cover.origin}} alt="">
+            <div class="Bottn">
+              <div class="left">
+                <p class="name">{{item.name}}</p>
+                <p class="title">{{item.cinemaCount}}加电影上映{{item.watchCount}}想看</p>
+              </div>
+              <p class="right">{{item.grade}}</p>
+            </div>
+        </a> 
+    </div>
+   
+    <button class="more" (click)="more()">更多热映电影</button>
+  
+  
+  </div>
+  

@@ -1,0 +1,73 @@
+#person{
+    width: 100%;
+    margin-top: 50px;
+    .Top{
+        width: 100%;
+        background: rgb(48,48,48);
+        height:155px; 
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    img{
+        margin-top: 20px;
+        height: 95px;
+        border-radius: 50px;
+        margin-left: 10%;
+
+    }
+    .topRight{
+        margin-left: 5%;
+        p{
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            height: 20px;
+            line-height: 45px;
+        }
+        .user{
+            margin-top: 35px;
+        }
+    }
+    #Bodys{
+        width: 100%;
+        background: rgb(235, 235, 235);
+        p{
+
+            width: 100%;
+            height: 60px;
+            background: #fff;
+            display: flex;
+            flex-direction: row;
+
+            span{
+                display: inline-block;
+                line-height: 56px;
+                margin-left: 5%;
+                font-size: 12px;
+            }
+            .ico{
+                width: 7%;
+                height: 22px;
+                background: red;
+                border-radius: 10px;
+                margin-left: 5%;
+                margin-top: 15px;
+
+            }   
+        }
+        .center1{
+            width: 100%;
+            p{
+                margin: 0px;
+                border-bottom: 1px solid #ccc;
+            }
+            
+        }
+        .set{
+            margin-top: 15px;
+            // margin-bottom: 15px;
+            height: 50px;
+        }
+    }
+}

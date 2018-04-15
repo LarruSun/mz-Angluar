@@ -1,0 +1,48 @@
+#cinema{
+    margin-top: 50px;
+#cinemaList{
+    .title{
+        margin-bottom: 1px;
+        width: 100%;
+        height: 40px;
+        background: rgb(225,225,225);
+        line-height: 40px;
+        text-indent: 5%;   
+    }
+}
+}
+
+
+
+#cinemaBody{
+        width: 100%;
+        // margin: 0 auto;
+        height: 100px;
+        border-bottom: 1px solid rgb(225,225,225);
+        a{
+            text-decoration: none;
+            background: black;
+        }
+        p{
+            margin: 0;
+            padding: 0;
+            margin-left: 5%;
+        }
+        .name{
+            width: 100%;
+            height: 45px;
+            line-height: 45px;  
+            font-size: 15px;
+        }
+        .addr,.distance{
+            width: 100%;
+            height: 15px;
+            line-height: 15px;
+            font-size: 12px;
+            color: rgb(196, 179, 179);
+        }
+        .distance{
+            margin-top: 10px;
+        }
+    
+}

@@ -1,0 +1,5 @@
+.mzLeft{position: fixed; overflow: hidden; top:50px;left:0;bottom:0;right:100%;background: #282828; color:#fff;z-index: 10}
+.mzLeft ul,.mz_left_menu li{margin: 0;padding:0;list-style: none;}
+.mzLeft li a{display: block; width:100%; padding:10px 16px; border-bottom: 1px solid #333;color:#fff; text-decoration: none;}
+
+.leftnavouter{position:fixed;top:50px;left:0;right:0;bottom:0;background: rgba(0,0,0,0);}
